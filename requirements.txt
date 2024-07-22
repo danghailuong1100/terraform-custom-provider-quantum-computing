@@ -1,0 +1,11 @@
+boto3
+qiskit-braket-provider
+qiskit==0.41.1
+numpy
+scipy
+# Parse AWS ARN for region
+arn
+rustworkx
+matplotlib
+pydash
+python-terraform

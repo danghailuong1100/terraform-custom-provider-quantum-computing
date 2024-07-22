@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  main:
+    container_name: circuit_exporter
+    build: .
+    entrypoint:
+      - python3
+    volumes:
+      - ./main.py:/app/main.py
+    stdin_open: true 
+    tty: true
